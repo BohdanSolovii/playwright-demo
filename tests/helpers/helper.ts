@@ -17,7 +17,7 @@ export class Helper {
     async login(login: string, password: string) {
         await this.loginPage.fillUsernameInput(login);
         await this.loginPage.fillPasswordInput(password);
-        await this.loginPage.clickLoginButton();
+        await this.loginPage.clickLoginButton();    
     }
 
     async logout() {
